@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-family: Kumbh Sans;
+}
+body
+{
+    background-color: hsl(185, 75%, 39%);
+   position: relative;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   flex-direction: column;
+}
+.ph-card img
+{
+    width:400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    z-index: 15;
+}
+.card
+{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    z-index: 14;
+    margin-top: 350px;
+}
+.image1
+{
+    position: absolute;
+    top: -465px;
+    left: -11%;
+    overflow: hidden;
+}
+.image2
+{
+    position: absolute;
+    top: 565px;
+    right:-8%;
+    overflow: hidden;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content img
+{
+    margin-top: -55px;
+    border: 5px white solid;
+    border-radius: 50%
+}
+.div div
+{
+   margin: 20px 45px -15px 30px;
+}
